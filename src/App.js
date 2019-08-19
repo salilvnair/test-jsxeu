@@ -22,8 +22,13 @@ class App extends React.Component {
   install = () => {
     this.props.install().subscribe(response=>{
       console.log(response);
+      if(response.key=="data") {
+        if(response.value.currentPercentage === "100") {
+          this.props.restart();
+        }
+      }
     })
-    this.props.restart();
+    
   }
  
   hasPendingUpdates = () => {
@@ -44,7 +49,7 @@ class App extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            React Electron Updater 1.0
+            React Electron Updater 0.0
           </a>
         </header>
         <div>
