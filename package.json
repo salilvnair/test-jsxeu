@@ -35,7 +35,7 @@
   "main": "main.js",
   "devDependencies": {
     "@ngxeu/util": "^4.1.1",
-    "electron": "^6.0.2",
+    "electron": "^11.5.0",
     "electron-builder": "^21.2.0",
     "follow-redirects": "^1.7.0",
     "fs-extra": "^8.1.0",
