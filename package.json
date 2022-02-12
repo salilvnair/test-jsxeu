@@ -37,7 +37,7 @@
     "@ngxeu/util": "^4.1.1",
     "electron": "^6.0.2",
     "electron-builder": "^21.2.0",
-    "follow-redirects": "^1.7.0",
+    "follow-redirects": "^1.14.8",
     "fs-extra": "^8.1.0",
     "jsonfile": "^5.0.0",
     "semver": "^6.3.0",
